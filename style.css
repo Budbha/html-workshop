@@ -1,15 +1,18 @@
 /* viide elemendile st muudame kõiki selliseid elemente */
 body {
     display: flex;
-    padding: 1em;
+    padding: 5em;
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    background: teal;
+    text-decoration-style: wavy;
+   font-weight: bolder;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
     max-width: 25em;
-    max-height: 30em;
+    max-height: 25em;
 }
 /* .-ga viitame elemenditele, millel on selline class */
 .container {
@@ -26,17 +29,10 @@ body {
     overflow-y: auto;
 }
 
-.card {
-    width: 20em;
-    height: 25em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #D9D9D9;
-    padding: 5em 1.5em 1.5em;
-}
+
+
 .icon {
-    max-width: 10em;
+    max-width: 50em;
 }
 iframe {
     width: 50em;
